@@ -1,14 +1,14 @@
 # Ourea
 ## Project Description
-Ourea was my final year project for my Bachelor’s Degree in Games Design and was created by a 5 man team over 9 months. I had the role of lead tech, meaning that I was in charge of the technical aspects of the game as well as source control. As secondary roles, I also was in charge of Audio and Lighting. The game received first-class honours as well as two awards at Ireland’s game festival “Game Fleadh”. Ourea won “Best Game Built using a Game Engine” as well as “Best in Social Impact”.
+Ourea was my final year project for my Bachelor’s Degree in Games Design and was created by a 5 man team over 9 months. I had the role of lead tech, meaning that I was in charge of the technical aspects of the game as well as source control. As secondary roles, I also was in charge of Audio and Lighting. The game received first-class honours as well as two awards at Ireland’s game festival “Game Fleadh”. Ourea won “Best Game Built using a Game Engine” as well as “Best in Social Impact”. After our college course had ended, the team spent an additional two months to polish the game further and release it on Steam (https://store.steampowered.com/app/1250030/Ourea/) and Itch.io (https://rewritegames.itch.io/ourea). Overall, even though the game is far from perfect, this project was a tremendous learning experience. It required everyone involved to improve and learn quickly and work as a team over a large amount of time. A short summary of the project can be found below:
 
 ### High-Level Project Overview
-Elevator Pitch: Ourea is a cinematic narrative game where you discover the harrowing past of a long-forgotten world. Overcome environmental puzzles as you ascend an ancient and mysterious mountain. 
-Player motivation: Discover the world’s ancient past and solve puzzles that help you ascend the mysterious mountain. 
-Genre: Narrative game with an emphasis on cinematic storytelling with puzzle elements. 
-Target Audience: People that enjoy narrative-driven games with puzzle elements such as What Remains of Edith Finch, Journey and Inside.
- Unique Selling Point: Cinematic storytelling in a narrative puzzle game. 
-Summary Overview: In a quiet, abandoned world we meet our protagonist Glyf whose journey of discovery leads him toward the summit of a nearby looming mountain. Through a series of trials and tribulations, Glyf overcomes environmental challenges while escaping a mysterious force in search of his purpose and past.
+- Elevator Pitch: Ourea is a cinematic narrative game where you discover the harrowing past of a long-forgotten world. Overcome environmental puzzles as you ascend an ancient and mysterious mountain. 
+- Player motivation: Discover the world’s ancient past and solve puzzles that help you ascend the mysterious mountain. 
+- Genre: Narrative game with an emphasis on cinematic storytelling with puzzle elements. 
+- Target Audience: People that enjoy narrative-driven games with puzzle elements such as What Remains of Edith Finch, Journey and Inside.
+- Unique Selling Point: Cinematic storytelling in a narrative puzzle game. 
+- Summary Overview: In a quiet, abandoned world we meet our protagonist Glyf whose journey of discovery leads him toward the summit of a nearby looming mountain. Through a series of trials and tribulations, Glyf overcomes environmental challenges while escaping a mysterious force in search of his purpose and past.
 
 ## My Work
 
@@ -47,7 +47,14 @@ I integrated steam achievements and other steam functionality using a C# Steamwo
  I created all sounds (excluding music) in the game. The process was sourcing multiple sounds on FreeSounds.org, editing them heavily and combining multiple sounds in Adobe Audition and Audacity. This also included creating audio for the various cutscene throughout the game, SFX and ambience.
 
 ### Lighting
-I created the lighting for all areas of the game. Each section was reworked multiple times throughout the phases of the project. Lighting also included creating local density volumes to accentuate volumetric rays. 
+I created the lighting for all areas of the game. Each section was reworked multiple times throughout the phases of the project. Lighting also included creating local density volumes to accentuate volumetric rays.
+
+### Marketing
+I created and edited all trailer for Ourea. This was done using Sony Vegas. The final release trailer can be found below.
+
+
+## Documentation
+Throughout the development process, the team and I created various documents for the game. These can be found in the Documents folder of this repo.
 
 ## Usage Help
 The game is available for purchase on Steam (https://store.steampowered.com/app/1250030/Ourea/), however, feel free to email me and I can send you a link to a full build for free.
