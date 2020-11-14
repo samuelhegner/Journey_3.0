@@ -28,7 +28,7 @@ Ourea is playable from start to finish, without a loading screen once the game s
 
 ![alt text](Screenshots/GameScenes.png)
 
-The final version of the level loading worked in the following ways. A scene bundle asset that contains references to its Assets, Camera and Lights scene gets used to async load those scenes. Then the three scenes are merged to allow for easier unloading. The lag spike caused by loading in new sections was optimised by splitting the load into three async operations as well as creating a Gradual Loader that instantiated monobehaviours frame by frame. This was done using the Abstract class Gradual Loader that allowed for all intensive monobehaviours to be easily adopted into the gradual loading process.
+The final version of the level loading worked in the following ways. A scene bundle asset that contains references to its Assets, Camera and Lights scene gets used to async load those scenes. Then the three scenes are merged to allow for easier unloading. The lag spike caused by loading in new sections was optimised by splitting the load into three async operations as well as creating a Gradual Loader that instantiated monobehaviours frame by frame. This was done using the abstract class Gradual Loader that allowed for all intensive monobehaviours to be easily adopted into the gradual loading process.
 
 ![alt text](Screenshots/SectionBundle.png)
 
@@ -46,10 +46,10 @@ I created menus for the game that worked for both controller and keyboard and mo
 ![alt text](Screenshots/Ourea&#32;-&#32;Gear&#32;Corridor&#32;(Updated).PNG)
 
 ### Game Saving
-I created a save system that loads the player in where they last left off. This was done through a binary encoder for security. This is integrated into the level select in the Ui. I also added saving of settings and audio levels through player prefs.
+I created a save system that loads the player in where they last left off. This was done through a binary encoder for security. This is integrated into the level select in the UI. I also added saving of settings and audio levels through player prefs.
 
 ### Optimisation
-As the game got closer to release, I spent a large amount of time optimising the game. This included the use of occlusion culling, lighting optimisations and static batching and GPU instancing. The Gradual loader was also introduced late in development, which helped tremendously with loading frame rate drops.
+As the game got closer to release, I spent a large amount of time optimising the game. This included the use of occlusion culling, lighting optimisations and static batching and GPU instancing. The Gradual Loader was also introduced late in development, which helped tremendously with loading frame rate drops.
 
 ![alt text](Screenshots/Ourea&#32;-&#32;Broken&#32;Doorway&#32;(Updated&#32;2).PNG)
 
