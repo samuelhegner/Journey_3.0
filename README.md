@@ -32,7 +32,7 @@ The final version of the level loading worked in the following ways. A scene bun
 
 ![alt text](Screenshots/SectionBundle.png)
 
-The objects, scripts and managers that were required throughout the entire game, were loaded in first and never unloaded. These scenes where called the manager scene and the base scene.
+The objects, scripts and managers that were required throughout the entire game, were loaded in first and never unloaded. These scenes where called the manager scene and the base scene. The manager scene contained objects that were required for loading of scenes, saving the game, a wrapper to get references between scenes, Steamworks implementation and editor functionality to allow for easy playtesting. The base scene where game objects that were in the game all the way through. This included objects like the player, the camera, directional lighting and more.
 
 ![alt text](Screenshots/ManagerScenes.png)
 
@@ -51,11 +51,16 @@ I created a save system that loads the player in where they last left off. This 
 ### Optimisation
 As the game got closer to release, I spent a large amount of time optimising the game. This included the use of occlusion culling, lighting optimisations and static batching and GPU instancing. The Gradual loader was also introduced late in development, which helped tremendously with loading frame rate drops.
 
+![alt text](Screenshots/Ourea&#32;-&#32;Broken&#32;Doorway&#32;(Updated&#32;2).PNG)
+
 ### Steam Integration
 I integrated steam achievements and other steam functionality using the C# Steamworks wrapper Steamworks.NET (http://steamworks.github.io/).
 
 ### Audio
  I created all sounds (excluding music) in the game. The process was sourcing multiple sounds on FreeSounds.org, editing them heavily and combining multiple sounds in Adobe Audition and Audacity. This also included creating audio for the various cutscene throughout the game, SFX and ambience.
+
+![alt text](Screenshots/Ourea&#32;-&#32;Mountain&#32;Reveal.gif)
+Ourea - Mountain Reveal.gif
 
 ### Lighting
 I created the lighting for all areas of the game. Each section was reworked multiple times throughout the phases of the project. Lighting also included creating local density volumes to accentuate volumetric rays.
