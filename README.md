@@ -1,4 +1,5 @@
 # Ourea
+![alt text](Screenshots/Realease&#32;AltarPic&#32;-&#32;No&#32;Out&#32;Now.png "Release Image")
 ## Project Description
 Ourea was my final year project for my Bachelor’s Degree in Games Design and was created by a 5 man team over 9 months. I had the role of lead tech, meaning that I was in charge of the technical aspects of the game as well as source control. As secondary roles, I also was in charge of Audio and Lighting. The game received first-class honours as well as two awards at Ireland’s game festival “Game Fleadh”. Ourea won “Best Game Built using a Game Engine” as well as “Best in Social Impact”. After our college course had ended, the team spent an additional two months to polish the game further and release it on Steam (https://store.steampowered.com/app/1250030/Ourea/) and Itch.io (https://rewritegames.itch.io/ourea). Overall, even though the game is far from perfect, this project was a tremendous learning experience. It required everyone involved to improve and learn quickly and work as a team over a large amount of time. A short summary of the project can be found below:
 
@@ -11,7 +12,6 @@ Ourea was my final year project for my Bachelor’s Degree in Games Design and w
 - Summary Overview: In a quiet, abandoned world we meet our protagonist Glyf whose journey of discovery leads him toward the summit of a nearby looming mountain. Through a series of trials and tribulations, Glyf overcomes environmental challenges while escaping a mysterious force in search of his purpose and past.
 
 ## My Work
-
 ### Gameplay
 I created all gameplay withing the game. Below I outline some specifics that I created over the 9 months of development.
 
