@@ -16,7 +16,7 @@ Ourea was my final year project for my Bachelor’s Degree in Games Design and w
 I created all gameplay withing the game. Below I outline some specifics that I created over the 9 months of development.
 
 #### Player
-I implemented all player mechanics. This included movement, interactions, animations 
+I implemented all player mechanics. This included movement, interactions, animation 
 implementation, cross-scene cutscene controls and all others.
 
 #### Puzzle Implementation
@@ -41,7 +41,9 @@ I created a save system that loads the player in where they last left off. This 
 As the game got closer to release, I spent a large amount of time optimising the game. This included the use of occlusion culling, lighting optimisations and static batching and GPU instancing. The Gradual loader was also introduced late in development, which helped tremendously with loading frame rate drops.
 
 ### Steam Integration
-I integrated steam achievements and other steam functionality using a C# Steamworks wrapper.
+I integrated steam achievements and other steam functionality using the C# Steamworks wrapper Steamworks.NET (http://steamworks.github.io/).
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3HJsqy9IY9A/0.jpg)](https://www.youtube.com/watch?v=3HJsqy9IY9A)
 
 ### Audio
  I created all sounds (excluding music) in the game. The process was sourcing multiple sounds on FreeSounds.org, editing them heavily and combining multiple sounds in Adobe Audition and Audacity. This also included creating audio for the various cutscene throughout the game, SFX and ambience.
