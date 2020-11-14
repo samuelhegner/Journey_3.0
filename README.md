@@ -60,7 +60,6 @@ I integrated steam achievements and other steam functionality using the C# Steam
  I created all sounds (excluding music) in the game. The process was sourcing multiple sounds on FreeSounds.org, editing them heavily and combining multiple sounds in Adobe Audition and Audacity. This also included creating audio for the various cutscene throughout the game, SFX and ambience.
 
 ![alt text](Screenshots/Ourea&#32;-&#32;Mountain&#32;Reveal.gif)
-Ourea - Mountain Reveal.gif
 
 ### Lighting
 I created the lighting for all areas of the game. Each section was reworked multiple times throughout the phases of the project. Lighting also included creating local density volumes to accentuate volumetric rays.
