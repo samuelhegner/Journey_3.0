@@ -26,7 +26,11 @@ I implemented the three puzzles and the final battle mechanics. This included cr
 ### Scene Loading
 Ourea is playable from start to finish, without a loading screen once the game started. This was due to the game long-shot approach, which meant that the camera would not cut throughout the entire game. This meant that Ourea required an additive scene loading strategy. The game was split into 11 sections. These were loaded in, mid gameplay, whenever the player progressed to them and unloaded when the player was unable to backtrack to them.
 
+![alt text](Screenshots/Ourea&#32;-&#32;Gear&#32;Corridor&#32;(Updated).PNG "Puzzle Gif")
+
 The final version of the level loading worked in the following ways. A scene bundle asset that contains references to its Assets, Camera and Lights scene gets used to async load those scenes. Then the three scenes are merged to allow for easier unloading. The lag spike caused by loading in new sections was optimised by splitting the load into three async operations as well as creating a Gradual Loader that instantiated monobehaviours frame by frame. This was done using the Abstract class Gradual Loader that allowed for all intensive monobehaviours to be easily adopted into the gradual loading process.
+
+
 
 ### Menus
 I created menus for the game that worked for both controller and keyboard and mouse. The menus included:
