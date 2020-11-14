@@ -14,7 +14,7 @@ Ourea was my final year project for my Bachelor’s Degree in Games Design and w
 ![alt text](Screenshots/Ourea&#32;-&#32;Rune&#32;with&#32;Flames.gif "Release Gif")
 ## My Work
 ### Gameplay
-I created all gameplay withing the game. Below I outline some specifics that I created over the 9 months of development.
+I implemented all gameplay within Ourea. Below I outline some specifics that I created over the 9 months of development.
 
 #### Player
 I implemented all player mechanics. This included movement, interactions, animation implementation as well as procedural animation, cross-scene cutscene controls and all others.
