@@ -24,13 +24,17 @@ I implemented the three puzzles and the final battle mechanics. This included cr
 ![alt text](Screenshots/Ourea&#32;-&#32;RopeBurn.gif "Puzzle Gif")
 
 ### Scene Loading
-Ourea is playable from start to finish, without a loading screen once the game started. This was due to the game long-shot approach, which meant that the camera would not cut throughout the entire game. This meant that Ourea required an additive scene loading strategy. The game was split into 11 sections. These were loaded in, mid gameplay, whenever the player progressed to them and unloaded when the player was unable to backtrack to them.
+Ourea is playable from start to finish, without a loading screen once the game started. This was due to the game long-shot approach, which meant that the camera would not cut throughout the entire game. This meant that Ourea required an additive scene loading strategy. The game was split into 11 sections mad up of a total of 35 scenes. These were loaded in, mid gameplay, whenever the player progressed to them and unloaded when the player was unable to backtrack to them.
 
-![alt text](Screenshots/Ourea&#32;-&#32;Gear&#32;Corridor&#32;(Updated).PNG "Puzzle Gif")
+![alt text](Screenshots/GameScenes.png)
 
 The final version of the level loading worked in the following ways. A scene bundle asset that contains references to its Assets, Camera and Lights scene gets used to async load those scenes. Then the three scenes are merged to allow for easier unloading. The lag spike caused by loading in new sections was optimised by splitting the load into three async operations as well as creating a Gradual Loader that instantiated monobehaviours frame by frame. This was done using the Abstract class Gradual Loader that allowed for all intensive monobehaviours to be easily adopted into the gradual loading process.
 
+![alt text](Screenshots/SectionBundle.png)
 
+The objects, scripts and managers that were required throughout the entire game, were loaded in first and never unloaded. These scenes where called the manager scene and the base scene.
+
+![alt text](Screenshots/ManagerScenes.png)
 
 ### Menus
 I created menus for the game that worked for both controller and keyboard and mouse. The menus included:
@@ -38,6 +42,8 @@ I created menus for the game that worked for both controller and keyboard and mo
 - Controls: This was a small tab that displayed how to control the game, with both controller and keyboard.
 - Gallery: This tab showcased all of the discovered intractable cave paintings that player had found. It also allowed the player to rewatch them.
 - Level Select: This tab gets unlocked, once the player finishes the game. It allows the player to replay the game from four different points in the story.
+
+![alt text](Screenshots/Ourea&#32;-&#32;Gear&#32;Corridor&#32;(Updated).PNG)
 
 ### Game Saving
 I created a save system that loads the player in where they last left off. This was done through a binary encoder for security. This is integrated into the level select in the Ui. I also added saving of settings and audio levels through player prefs.
