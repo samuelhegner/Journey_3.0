@@ -24,7 +24,7 @@ I implemented the three puzzles and the final battle mechanics. This included cr
 ![alt text](Screenshots/Ourea&#32;-&#32;RopeBurn.gif "Puzzle Gif")
 
 ### Scene Loading
-Ourea is playable from start to finish, without a loading screen once the game started. This was due to the game long-shot approach, which meant that the camera would not cut throughout the entire game. This meant that Ourea required an additive scene loading strategy. The game was split into 11 sections mad up of a total of 35 scenes. These were loaded in, mid gameplay, whenever the player progressed to them and unloaded when the player was unable to backtrack to them.
+Ourea is playable from start to finish, without a loading screen once the game started. This was due to the game long-shot approach, which meant that the camera would not cut throughout the entire game. This meant that Ourea required an additive scene loading strategy. The game was split into 11 sections made up of a total of 35 scenes. These were loaded in, mid gameplay, whenever the player progressed to them and unloaded when the player was unable to backtrack to them.
 
 ![alt text](Screenshots/GameScenes.png)
 
@@ -32,7 +32,7 @@ The final version of the level loading worked in the following ways. A scene bun
 
 ![alt text](Screenshots/SectionBundle.png)
 
-The objects, scripts and managers that were required throughout the entire game, were loaded in first and never unloaded. These scenes where called the manager scene and the base scene. The manager scene contained objects that were required for loading of scenes, saving the game, a wrapper to get references between scenes, Steamworks implementation and editor functionality to allow for easy playtesting. The base scene where game objects that were in the game all the way through. This included objects like the player, the camera, directional lighting and more.
+The objects, scripts and managers that were required throughout the entire game, were loaded in first and never unloaded. These scenes were called the manager scene and the base scene. The manager scene contained objects that were required for loading of scenes, saving the game, a wrapper to get references between scenes, Steamworks implementation and editor functionality to allow for easy playtesting. The base scene where game objects that were in the game all the way through. This included objects like the player, the camera, directional lighting and more.
 
 ![alt text](Screenshots/ManagerScenes.png)
 
@@ -76,4 +76,3 @@ Throughout the development process, the team and I created various documents for
 
 ## Usage Help
 The game is available for purchase on Steam (https://store.steampowered.com/app/1250030/Ourea/), however, feel free to email me and I can send you a link to a full build for free.
-
