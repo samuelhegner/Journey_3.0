@@ -67,7 +67,7 @@ I created the lighting for all areas of the game. Each section was reworked mult
 ![alt text](Screenshots/Ourea&#32;-&#32;Glyf&#32;Rune.gif "Cinematic Gif")
 
 ### Marketing
-I created and edited all trailer for Ourea. This was done using Sony Vegas. The final release trailer can be found below.
+I created and edited all trailers for Ourea. This was done using Sony Vegas. The final release trailer can be found below and all older trailers can be found on the youtube channel: https://www.youtube.com/channel/UC3uP5-oRYvJbEzYmkBJZqDQ.
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3HJsqy9IY9A/0.jpg)](https://www.youtube.com/watch?v=3HJsqy9IY9A)
 
